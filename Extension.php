@@ -47,8 +47,9 @@ class Extension extends BaseExtension
         			'tab' => 'lang:thoughtco.ordereditor::default.notes',
         			'label' => 'lang:admin::lang.orders.label_comment',
 				'span' => 'left',
-            	'type' => 'textarea',
+            			'type' => 'textarea',
 			];	
+		    
 				$form->tabs['fields']['notes'] = [
         			'tab' => 'lang:thoughtco.ordereditor::default.notes',
         			'label' => 'lang:thoughtco.ordereditor::default.order_notes',
